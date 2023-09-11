@@ -416,6 +416,7 @@ p{
         width: 100px;
 
         height: 100px;
+     margin-left:2px;
     }
 
     .items{
@@ -476,13 +477,13 @@ p{
 
    .cato img{
 
-    width: 70px;
+    width: 60px;
 
-    height: 70px;
+    height: 60px;
 
     scroll-behavior: auto;
 
-    padding:3px;
+    padding:5px;
 
    }
 
@@ -515,9 +516,9 @@ p{
    .about p{
 
     width: 130px;
-    height: 10px;
+    height: 13px;
 
-    font-size: 5px;
+    font-size: 8px;
 
     margin-left: 30px;
     
@@ -536,12 +537,12 @@ p{
     max-height: 20px;
 
     padding: 0;
-    margin-left: 12px;
+    margin-left: 8px;
   }
 
   .footer{
 
-    height: 100px;
+    height: 140px;
     padding: 20px;
   }
    
