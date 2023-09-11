@@ -407,15 +407,15 @@ p{
 
     .slide img{
 
-        width: 400px;
+        width: 380px;
         height: 10px;
     }
 
     .img img{
 
-        width: 110px;
+        width: 100px;
 
-        height: 110px;
+        height: 100px;
     }
 
     .items{
@@ -481,6 +481,8 @@ p{
     height: 70px;
 
     scroll-behavior: auto;
+
+    padding:3px;
 
    }
 
