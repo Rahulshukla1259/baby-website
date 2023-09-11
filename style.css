@@ -1,0 +1,560 @@
+ /* Reset some default styles */
+ body {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.topbar{
+
+    background-color: rgb(30, 29, 29);
+
+    display: flex;
+
+    justify-content: center;
+
+    height: 80px;
+}
+
+span{
+
+    text-decoration: none;
+    margin-left: 20px;
+
+    color: black;
+
+  
+}
+
+.navbar{
+
+    background-color: cadetblue;
+    padding: 10px;
+
+    display: flex;
+
+    justify-content:space-between;
+
+
+}
+
+
+.slide img {
+
+    width: 100vw;
+
+    
+    margin: auto;
+
+
+}
+
+
+
+.slides{
+
+    height: 200px;
+}
+
+.circle{
+
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: coral;
+
+    margin-right: 10px;
+
+   
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.slowFade {
+    display: flex;
+    align-items: flex-start;
+    background: #fff;
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+}
+.slowFade .slide img {
+    position: absolute;
+    /* min-width: 100%;
+    min-height: 100%; */
+    height: 70vh;
+    background: #000;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    opacity: 0;
+    transform: rotate(0);
+    -webkit-animation: slowFade 30s infinite;
+            animation: slowFade 30s infinite;
+}
+.slowFade .slide:nth-child(3) img {
+    -webkit-animation-delay: 10s;
+            animation-delay: 10s;
+}
+.slowFade .slide:nth-child(2) img {
+    -webkit-animation-delay: 15s;
+            animation-delay: 15s;
+}
+.slowFade .slide:nth-child(1) img {
+    -webkit-animation-delay: 20s;
+            animation-delay: 20s;
+}
+@keyframes slowFade {
+    25% {
+        opacity: 1;
+        transform: scale(1) rotate(0);
+    }
+    40% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes slowFade {
+    25% {
+        opacity: 1;
+        transform: rotate(0);
+    }
+    40% {
+        opacity: 0;
+    }
+}
+
+h4{
+
+    margin-top: 10px;
+}
+
+.btn{
+
+    margin-top: 6px;
+
+    height: 30px;
+    width: 70px;
+    background-color:#e578e3;
+    border-radius: 4px;
+
+    cursor: pointer;
+
+    
+}
+
+h1::after{
+
+    content: "";
+
+    border: 1px solid black;
+  position: absolute;
+  width: 350px;
+  margin-left: 10px;
+
+  margin-top: 15px;
+
+ 
+    
+    
+}
+
+h1::before{
+
+
+    content: "";
+
+    border: 1px solid black;
+  position: absolute;
+  width: 350px;
+  margin-left: -360px;
+
+  margin-top: 15px;
+
+}
+
+.sec-2{
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    
+}
+
+.sec-2 h1{
+
+    margin-top: 40px;
+    
+}
+
+.items{
+
+    display: flex;
+
+    margin-top: 50px;
+
+    height: 470px;
+
+    width: 90vw;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+   
+    background-color: rgb(244, 197, 204);
+
+    border-radius: 10px;
+    justify-content: space-evenly;
+
+    padding-top: 20px;
+}
+
+.img img{
+
+    height: 300px;
+    width: 320px;
+
+    border-radius: 10px;
+
+    box-shadow:0px 4px 4px grey;
+}
+
+.sec-22{
+   margin-top: 30px;
+
+   justify-content: center;
+
+   align-items: center;
+
+}
+
+.cont{
+
+    display: flex;
+    padding: 20px;
+
+    margin-top: 20px;
+
+    justify-content: center;
+
+    background-color: #f3e9cb;
+
+    width: 90vw;
+
+    border-radius: 10px;
+    
+}
+
+.cato{
+
+    padding: 10px;
+}
+
+.cato img{
+
+    height: 250px;
+
+    width: 200px;
+
+    border-radius: 5px;
+
+    box-shadow: 0px 4px 4px grey;
+}
+
+.sec-3 h1{
+
+    margin-top: 40px;
+}
+
+.sec-3 .k{
+ 
+    margin-top: 30px;
+
+}
+
+.k{
+    display: flex;
+
+    justify-content: center;
+}
+
+.k img{
+
+    width: 80vw;
+    inset: 0;
+    margin: auto;
+
+    border-radius: 10px;
+}
+
+.all_product{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+
+    
+}
+
+.cloth-image img{
+ 
+
+    width: 300px;
+
+}
+
+.footer{
+
+    margin-top: 40px;
+    padding: 40px;
+    display: flex;
+
+   background: linear-gradient(rgb(96, 168, 240), rgb(8, 138, 147), rgb(25, 117, 142));
+}
+
+.about{
+
+    width: 40vw;
+}
+
+.contact{
+
+    margin-left: 80px;
+}
+
+.contact img{
+
+    
+   
+    
+    margin-top: 20px;
+    padding: 20px;
+}
+
+p{
+
+    margin-top: 15px;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+}
+
+
+/* media query */
+
+.menu-res-content{
+
+    display: none;
+
+    z-index: 10;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+
+    .menu-content{
+
+        display: none;
+    }
+
+    .menu-toggle{
+
+        display: flex;
+    }
+
+    
+    .menu-on-responsive{
+
+        display: none;
+    } 
+
+    .nav-content{
+
+        width: 700px;
+    }
+
+
+    .slide img{
+
+        width: 400px;
+        height: 10px;
+    }
+
+    .img img{
+
+        width: 110px;
+
+        height: 110px;
+    }
+
+    .items{
+
+        height: 250px;
+
+        margin-top: 20px;
+    }
+
+    h4{
+
+        font-size:10px;
+    }
+
+    h1{
+
+        font-size: 20px;
+    }
+
+    h1::after{
+
+        width: 100px;
+    }
+
+    h1::before{
+
+        width: 100px;
+
+        margin-left: -110px;
+    }
+
+
+
+    .btn{
+
+        width: 50px;
+        height: 20px;
+
+        font-size: 10px;
+    }
+
+    .circle{
+
+        width: 35px;
+
+        height: 20px;
+
+        border-radius: 50%;
+    }
+
+   .cont{
+    
+    height: 120px;
+
+        margin-top: 20px;
+
+   } 
+
+   .cato img{
+
+    width: 70px;
+
+    height: 70px;
+
+    scroll-behavior: auto;
+
+   }
+
+   .cloth-image img{
+
+   
+   }
+
+   .slides{
+
+    height: 200px;
+   }
+
+   .slide img{
+
+   
+   }
+
+   .slide-img{
+
+    max-width:420px;
+    max-height: 200px;
+   }
+
+   h2{
+
+    font-size: 20px;
+   }
+
+   .about p{
+
+    width: 130px;
+    height: 10px;
+
+    font-size: 5px;
+
+    margin-left: 30px;
+    
+   }
+    
+
+   .contact {
+
+    width: 160px;
+    height: 5px;
+  }
+
+  .contact img {
+
+    max-width: 20px;
+    max-height: 20px;
+
+    padding: 0;
+    margin-left: 12px;
+  }
+
+  .footer{
+
+    height: 100px;
+    padding: 20px;
+  }
+   
+
+    
+   
+
+}
+
+
+
+   .show{
+
+    display: flex;
+   }
+
+  
+
